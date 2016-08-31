@@ -72,12 +72,8 @@ h3 {
   margin: 0px;
 }
 
-p, ol, table, pre, dl {
+p, ul, ol, table, pre, dl {
   margin:0 0 20px;
-}
-
-ul {
-  margin-left: 0px;
 }
 
 h1, h2, h3 {
