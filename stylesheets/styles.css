@@ -66,6 +66,18 @@
    background-image: url('uofm_hover.png');
 }
 
+.linkedinButton {
+	display: block;
+	width: 42px;
+	height: 42px;
+	background:transparent url('linkedin.png') center top no-repeat;
+	text-indent: -99999px;
+}
+
+.linkedinButton:hover {
+   background-image: url('linkedin_hover.png');
+}
+
 body {
   background-color: #fff;
   padding:50px;
