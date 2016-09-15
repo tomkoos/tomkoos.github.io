@@ -56,7 +56,6 @@
 
 .uofmButton {
 	display: block;
-	background-size: 42px 42px;
 	background:transparent url('uofm.png') center top no-repeat;
 	text-indent: -99999px;
 }
