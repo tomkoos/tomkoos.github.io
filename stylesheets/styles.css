@@ -55,7 +55,7 @@
 }
 
 .uofmButton {
-	display: inline;
+	display: inline-block;
 	width: 42px;
 	height: 42px;
 	background:transparent url('uofm.png') center top no-repeat;
@@ -67,7 +67,7 @@
 }
 
 .linkedinButton {
-	display: inline;
+	display: inline-block;
 	width: 42px;
 	height: 42px;
 	background:transparent url('linkedin.png') center top no-repeat;
