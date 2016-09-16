@@ -91,7 +91,7 @@
 }
 
 .eulerPic {
-	display: inline-block;
+	display: block;
 	background-image: url('euler.png');
 	position: fixed;
 	width: 100%;
@@ -105,7 +105,7 @@
 }
 
 .hackerrankPic {
-	display: inline-block;
+	display: block;
 	background-image: url('hackerrank.png');
 	position: fixed;
 	width: 100%;
