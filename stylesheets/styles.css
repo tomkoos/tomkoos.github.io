@@ -92,7 +92,7 @@
 
 .eulerPic {
 	display: block;
-	background-image: url('euler.png') no-repeat;
+	background-image: url('euler.png');
   	margin: 0 auto;
   	text-indent: -9999px;
 	opacity: 0.8;
