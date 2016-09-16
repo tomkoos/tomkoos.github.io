@@ -63,7 +63,7 @@
 }
 
 .uofmButton:hover {
-   background-image: url('uofm_hover.png');
+   opacity: 0.5;
 }
 
 .linkedinButton {
