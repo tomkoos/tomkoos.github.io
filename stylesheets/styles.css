@@ -70,12 +70,24 @@
 	display: inline-block;
 	width: 42px;
 	height: 42px;
-	background:transparent url('linkedin.png') center top no-repeat;
-	text-indent: -99999px;
+	background-image: url('linkedin.png');
+	opacity: 0.5;
 }
 
 .linkedinButton:hover {
-   background-image: url('linkedin_hover.png');
+   opacity: 1;
+}
+
+.githubButton {
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+	background-image: url('github.png');
+	opacity: 0.5;
+}
+
+.githubButton:hover {
+   opacity: 1;
 }
 
 body {
