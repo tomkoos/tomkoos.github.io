@@ -91,7 +91,7 @@
 }
 
 .eulerPic {
-	display: block;
+	display: inline-block;
 	background-image: url('euler.png');
   	margin: 0px auto;
   	width: 100%;
