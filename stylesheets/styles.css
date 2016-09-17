@@ -93,7 +93,7 @@
 .eulerPic {
 	display: block;
 	background-image: url('euler.png');
-  	margin: 0 auto;
+  	margin: 0px auto;
   	width: 100%;
 	height: 100%;
 	opacity: 0.8;
@@ -106,9 +106,9 @@
 .hackerrankPic {
 	display: block;
 	background-image: url('hackerrank.png');
-	width: 100%;
+  	margin: 0px auto;
+  	width: 100%;
 	height: 100%;
-	background-repeat: no-repeat;
 	opacity: 0.8;
 }
 
