@@ -90,7 +90,7 @@
    opacity: 1;
 }
 
-a eulerPic {
+.eulerPic {
 	display: block;
 	background-image: url('euler.png');
   	width: 100%;
@@ -98,7 +98,7 @@ a eulerPic {
 	opacity: 0.8;
 }
 
-a eulerPic:hover {
+.eulerPic:hover {
    opacity: 1;
 }
 
