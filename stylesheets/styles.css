@@ -80,7 +80,7 @@
 
 .githubButton {
 	display: inline-block;
-	width: 32px;
+	max-width: 70%;
 	height: auto;
 	background-image: url('github.png');
 	opacity: 0.5;
