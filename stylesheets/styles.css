@@ -116,9 +116,8 @@
 
 body {
   background-color: #fff;
-  background: url("fibonacci_bg.png") no-repeat;
+  background: url("fibonacci_bg.png") no-repeat right bottom;
   background-size:cover
-  background-position: right bottom;
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
@@ -126,7 +125,6 @@ body {
 }
 
 h1, h2, h4, h5, h6 {
-  color:#222;
   margin:0 0 10px;
 }
 
