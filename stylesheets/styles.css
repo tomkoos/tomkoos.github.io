@@ -117,7 +117,7 @@
 body {
   background-color: #fff;
   background: url("fibonacci_bg.png") no-repeat right bottom;
-  padding:50px;
+  padding:20px;
   margin-top: 5px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
@@ -307,7 +307,7 @@ hr {
 }
 
 footer {
-  width:270px;
+  width:120px;
   float:left;
   position:fixed;
   bottom:50px;
