@@ -292,7 +292,8 @@ header ul a strong {
 section {
   width:700px;
   float:right;
-  padding:0 50px 0 50px;
+  padding-bottom:50px;
+  padding-left:80px;
 }
 
 small {
