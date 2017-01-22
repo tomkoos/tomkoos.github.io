@@ -137,6 +137,10 @@ p, ul, ol, table, pre, dl {
   margin:0 10px 20px 10px;
 }
 
+ul {
+  padding-left: 3px;
+}
+
 p + ul {
     margin-top: -10px;
 }
