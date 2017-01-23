@@ -16,7 +16,7 @@
       </header>
       <section>
 <h3>
-<a id="about-me" class="anchor" href="#about-me" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Boost installation instructions for Visual Studio 2015</h2>
+<a id="about-me" class="anchor" href="#about-me" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Boost Installation Instructions for Visual Studio 2015</h2>
 <hr>
 
 The instructions mainly follow the Boost's <a href="http://www.boost.org/doc/libs/1_63_0/more/getting_started/windows.html">official guide for Windows</a>. The current version of Boost (as of Jan 22, 17) is 1.63.0.
@@ -33,9 +33,20 @@ The instructions mainly follow the Boost's <a href="http://www.boost.org/doc/lib
 <li> Click the Windows button on the bottom left of the desktop screen and search for "Visual Studio 2015" folder.</li>
 <li> Start Visual Studio's command prompt. Now it depends on which OS version you have. For this example, since my OS is 64-bit Windows, the command prompt I need to run is "VS2015 x64 Native Tools Command Prompt". If your OS is 32-bit Windows, then "VS2015 x86 Native Tools Command Prompt". <u>IMPORTANT</u>: need to run the command prompt as administrator.  
 <img src="open_cmd.jpg">
-<li> Change directory to the Boost folder using command "cd". For this example "cd C:\boost_1_63_0", then run "bootstrap". See the following pic for the expected result. </li>
+<li> Change directory to the Boost folder using command "cd". For this example "cd C:\boost_1_63_0", then run "bootstrap". <br>
+(See the following pic for the expected result) </li>
 <img src="cmd1.jpg">
+<br><br>
 </ul>
+<h4>3. Build Boost by b2</h4>
+<ul>   
+<li> Under the previous command prompt, run a command "b2 install". The default installation directory is C:\Boost. <br>
+If you want to choose the directory of your choice, run "b2 install --prefix=<i>PREFIX</i>" where <i>PREFIX</i> indicates the path you want to install the Boost. For example, " b2 install --prefix="C:\MyBoost64\" ". <br>
+For this example I use the default command. <br>
+(See the following pic for the expected result) </li>
+<img src="cmd2.jpg">
+</ul>
+
       </section>
       <footer>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
