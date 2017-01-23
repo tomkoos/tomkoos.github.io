@@ -28,6 +28,7 @@ The instructions mainly follow the Boost's <a href="http://www.boost.org/doc/lib
 </ul>     
 <img src="extract.jpg">
 <br><br>
+        
 <h4>2. Run bootstrap.bat</h4>
 <ul>
 <li> Click the Windows button and search for "Visual Studio 2015" folder.</li>
@@ -38,13 +39,26 @@ The instructions mainly follow the Boost's <a href="http://www.boost.org/doc/lib
 <img src="cmd1.jpg">
 <br>
 </ul>
+        
 <h4>3. Build Boost using b2</h4>
 Under the previous command prompt, run a command "b2 install". The default installation directory is C:\Boost. <br>
 <u>Remark</u>: If you want to choose the directory of your choice, run "b2 install --prefix=<i>PREFIX</i>" where <i>PREFIX</i> indicates the path you want to install the Boost. For example, " b2 install --prefix="C:\MyBoost64\" ". For this example I use the default command. <br>
-Note that it might takes a while for this step.
+(Note that it might takes a while for this step)
 <img src="cmd2.jpg">
+<br>
+Now you have successfully installed the Boost! Under the Boost folder you will see two subfolders namely "include" and "lib".
+<img src="success.jpg">
+<br> 
+The final step is to include the Boost library in Visual Studio's C++ project.
 
-
+<h4>4. Include Boost library in Visual Studio's C++ Project</h4>
+Open a C++ project, choose "Project > Properties". Now, you need to add two things, the include path and the library path for Boost.
+<ol>
+  <li> Add "<i>BOOSTPATH</i>\include\boost-1_63" to "C/C++ > Additional Include Directories"</li>
+  <img src="include.jpg">
+  <li> Add "<i>BOOSTPATH</i>\lib" to "Linker > Additional Library Directories" </li>
+  <img src="lib.jpg">
+</ol>
       </section>
       <footer>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
