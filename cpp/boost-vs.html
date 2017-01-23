@@ -31,19 +31,19 @@ The instructions mainly follow the Boost's <a href="http://www.boost.org/doc/lib
 <h4>2. Run bootstrap.bat</h4>
 <ul>
 <li> Click the Windows button and search for "Visual Studio 2015" folder.</li>
-<li> Start Visual Studio's command prompt. Now it depends on which OS version you have. For this example, since my OS is 64-bit Windows, the command prompt I need to run is "VS2015 x64 Native Tools Command Prompt". If your OS is 32-bit Windows, then "VS2015 x86 Native Tools Command Prompt". <u>IMPORTANT</u>: need to run the command prompt as administrator.  
+<li> Start Visual Studio's command prompt. Now it depends on which OS version you have. For this example, since my OS is 64-bit Windows, the command prompt I need to run is "VS2015 x64 Native Tools Command Prompt". If your OS is 32-bit Windows, then "VS2015 x86 Native Tools Command Prompt". <br>
+<u>IMPORTANT</u>: need to run the command prompt as administrator.  </li>
 <img src="open_cmd.jpg">
 <li> Change directory to the Boost folder using command "cd". For this example "cd C:\boost_1_63_0", then run "bootstrap".</li>
 <img src="cmd1.jpg">
 <br>
 </ul>
-<h4>3. Build Boost by b2</h4>
-<ul>   
-<li> Under the previous command prompt, run a command "b2 install". The default installation directory is C:\Boost. <br>
-If you want to choose the directory of your choice, run "b2 install --prefix=<i>PREFIX</i>" where <i>PREFIX</i> indicates the path you want to install the Boost. For example, " b2 install --prefix="C:\MyBoost64\" ". <br>
-For this example I use the default command.</li>
+<h4>3. Build Boost using b2</h4>
+Under the previous command prompt, run a command "b2 install". The default installation directory is C:\Boost. <br>
+If you want to choose the directory of your choice, run "b2 install --prefix=<i>PREFIX</i>" where <i>PREFIX</i> indicates the path you want to install the Boost. For example, " b2 install --prefix="C:\MyBoost64\" ". For this example I use the default command. <br>
+Note that it might takes a while for this step.
 <img src="cmd2.jpg">
-</ul>
+
 
       </section>
       <footer>
