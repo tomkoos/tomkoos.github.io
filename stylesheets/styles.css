@@ -56,8 +56,8 @@
 
 .uofmButton {
 	display: inline-block;
-	width: 42px;
-	height: 42px;
+	width: 28px;
+	height: 28px;
 	background-image: url('uofm.png');
 	opacity: 0.5;
 }
@@ -68,8 +68,8 @@
 
 .linkedinButton {
 	display: inline-block;
-	width: 42px;
-	height: 42px;
+	width: 28px;
+	height: 28px;
 	background-image: url('linkedin.png');
 	opacity: 0.5;
 }
