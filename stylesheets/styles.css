@@ -164,6 +164,7 @@ a {
 
 a:hover {
   color:#cc6633;
+  position: relative;
 }
 
 a small {
